@@ -1,0 +1,54 @@
+ @import '../../assets/scss/variable.scss';
+
+ .search-box {
+   padding: 20px;
+
+   .resultScroll {
+     position: absolute;
+     top: 157px;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     overflow: hidden;
+   }
+
+   .serach-input-box {
+     display: flex;
+     height: 30px;
+     border-radius: 30px;
+     background: #333;
+
+     .search-icon {
+       width: 30px;
+       line-height: 30px;
+       text-align: center;
+
+       .icon-search {
+         font-size: 22px;
+         color: $color-text-l;
+         line-height: 30px;
+       }
+     }
+
+     .search-input {
+       flex: 1;
+       background: transparent;
+       font-size: 14px;
+       outline: none;
+       color: $color-text-l;
+     }
+
+     .search-close {
+       width: 30px;
+       text-align: center;
+       line-height: 30px;
+
+       .icon-dismiss {
+         line-height: 30px;
+         font-size: 16px;
+         color: $color-text-l;
+
+       }
+     }
+   }
+ }

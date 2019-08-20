@@ -1,0 +1,36 @@
+@import '../../assets/scss/variable.scss';
+@import '../../assets//scss/mixin.scss';
+
+.back-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+    .back {
+        width: 42px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .icon-back {
+            display: block;
+            padding: 10px;
+            font-size: $font-size-large-x;
+            color: $color-theme;
+        }
+    }
+
+    .back-title {
+        flex: 1;
+        text-align: center;
+        @include no-wrap();
+        text-align: center;
+        line-height: 42px;
+        font-size: $font-size-large;
+        color: $color-text;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}

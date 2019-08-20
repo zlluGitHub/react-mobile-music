@@ -1,0 +1,20 @@
+@import '../../assets/scss/variable.scss';
+.tabsList{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    height:44px;
+    .tabsItem {
+        flex:1;
+        text-align: center;
+        line-height: 44px;
+        a{
+            color:$color-text-l;
+            font-size:$font-size-medium;
+            &.selected {
+                color:$color-theme;
+            }
+        }
+        
+    }
+}

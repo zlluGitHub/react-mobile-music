@@ -1,0 +1,45 @@
+@import '../../assets/scss/variable.scss';
+@import '../../assets/scss/mixin.scss';
+.songTitle {
+    color:$color-theme;
+    font-size:$font-size-medium;
+    text-align: center;
+    padding:10px 0;
+    background-color:$color-background;
+}
+.songListWrapper {
+    .songlist {
+        .listItem {
+            padding:0 20px 20px 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .item-img{
+                width:60px;
+                height:60px;
+                flex:0 0 60px;
+            }
+            .item-title-box{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left:20px;
+                font-size:0;
+                max-width: calc(100vw - 40px - 20px - 60px);
+                padding-right:20px;
+                box-sizing: border-box;
+                .main-title {
+                    font-size:$font-size-medium;
+                    color:#fff;
+                    margin-top:6px;
+                }
+                .title-desc {
+                    font-size:$font-size-small;
+                    color:$color-text-d;
+                    margin-top:10px;
+                    @include no-wrap;
+                }
+            }
+        }
+    }
+}

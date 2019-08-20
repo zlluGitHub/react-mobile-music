@@ -1,0 +1,17 @@
+.recommendPage {
+    // height:calc(100vh - 44px - 44px);
+    overflow: hidden;
+    position: relative;
+}
+.a{
+    width:100px;
+    height:100px;
+    background: #fff;
+}
+.wrapper{
+    position: absolute;
+    top:88px;
+    bottom:0;
+    width:100%;
+    overflow: hidden;
+}

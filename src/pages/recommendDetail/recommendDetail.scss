@@ -1,0 +1,46 @@
+@import "../../assets/scss/variable.scss";
+
+.recommend-music-box {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #222;
+    z-index: 99;
+    overflow: hidden;
+
+    .cover-img {
+        width: 100%;
+        padding-top: 70%;
+        height: 0;
+        position: relative;
+
+        .mask {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(7, 17, 27, 0.4);
+        }
+    }
+
+    .bg-layer {
+        position: relative;
+        height: 100%;
+        background: $color-background;
+    }
+
+    .musicWrapper-box {
+        width: 100%;
+        position: absolute;
+        top: 262px;
+        bottom: 0;
+        background: $color-background;
+
+        .musicWrapper {
+            height: 100%
+        }
+    }
+}

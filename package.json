@@ -9,7 +9,7 @@
     "js-file-download": "^0.4.6",
     "jsonp": "^0.2.1",
     "lyric-parser": "^1.0.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "r-img-lazyload": "^1.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
